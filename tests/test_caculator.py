@@ -24,5 +24,6 @@ class TestCaculator:
     @pytest.mark.parametrize("a,b", data["divide"])
     def test_divide(self,a,b):
         assert self.cal.divide(a, b) == a/b
+
 if __name__=='__main__':
-    pytest.main(['test_caculator.py ','-v'])
+    pytest.main(['test_caculator.py ','-vs'])

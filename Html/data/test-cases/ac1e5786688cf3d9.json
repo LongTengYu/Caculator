@@ -1,0 +1,107 @@
+{
+  "uid" : "ac1e5786688cf3d9",
+  "name" : "test_multi[get_multi_data1]",
+  "fullName" : "tests2.test_caculator.TestCaculator#test_multi",
+  "historyId" : "eee08f1b5133a72a60ed98c4dd5eb016",
+  "time" : {
+    "start" : 1608996749070,
+    "stop" : 1608996749070,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "get_cal",
+    "time" : {
+      "start" : 1608996749046,
+      "stop" : 1608996749046,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "get_multi_data",
+    "time" : {
+      "start" : 1608996749069,
+      "stop" : 1608996749069,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "get_multi_data::0",
+    "time" : {
+      "start" : 1608996749078,
+      "stop" : 1608996749078,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "run(order=3)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests2"
+  }, {
+    "name" : "suite",
+    "value" : "test_caculator"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCaculator"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-VTQ1542"
+  }, {
+    "name" : "thread",
+    "value" : "6004-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests2.test_caculator"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "get_multi_data",
+    "value" : "[-5, 12, -60]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "run(order=3)" ]
+  },
+  "source" : "ac1e5786688cf3d9.json",
+  "parameterValues" : [ "[-5, 12, -60]" ]
+}
