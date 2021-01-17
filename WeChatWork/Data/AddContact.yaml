@@ -1,0 +1,28 @@
+#Contact1:
+#  name: 测试1
+#  sex: man
+#  email: 123@qq.com
+#  addressname: 外交部
+#  seachaddress: 中华人民共和国外交部
+#
+#Contact2:
+#  name: 测试2
+#  sex: woman
+#  email: 456@qq.com
+#  addressname: 外交部
+#  seachaddress: 中华人民共和国外交部
+-
+  - 测试1
+  - man
+  - 123@qq.com
+  - 外交部
+  - 中华人民共和国外交部
+
+-
+  - 测试2
+  - woman
+  - 456@qq.com
+  - 外交部
+  - 中华人民共和国外交部
+
+
