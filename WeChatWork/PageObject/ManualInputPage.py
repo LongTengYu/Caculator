@@ -7,7 +7,7 @@ from time import *
 
 
 class Manaul_Input_Page(Base_Page):
-    def add_name(self,contactname):
+    def add_name(self, contactname):
         self.find_send(MobileBy.XPATH, "//*[@resource-id='com.tencent.wework:id/ern']/*/*[3]", contactname)  # 输入姓名
 
     def seach_sex(self, sex=None):
@@ -17,12 +17,12 @@ class Manaul_Input_Page(Base_Page):
         else:
             self.find_click(MobileBy.XPATH, "//*[@resource-id='com.tencent.wework:id/boh']/*[2]/*/*")  # 获取性别女的节点
 
-    def add_email(self,email):
-        self.find_send(MobileBy.XPATH, "//*[@resource-id='com.tencent.wework:id/er1']/*/*[2]",email)  # 输入邮箱
+    def add_email(self, email):
+        self.find_send(MobileBy.XPATH, "//*[@resource-id='com.tencent.wework:id/er1']/*/*[2]", email)  # 输入邮箱
 
     def goto_seachaddress(self):
         self.find_click(MobileBy.XPATH, "//*[@resource-id='com.tencent.wework:id/jr']/*[2]")  # 点击地址框，弹出地址页面
-        return Seach_Address_Page(self.driver)
+        return Seach_Address_Page(self.driver)  # 返回添加地址界面
 
     def input_save(self):
         locator = (MobileBy.ID, 'com.tencent.wework:id/ie7')

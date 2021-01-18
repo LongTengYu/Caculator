@@ -1,0 +1,35 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "TestAddContact",
+    "children" : [ {
+      "name" : "test_add_contact[contactdata0]",
+      "uid" : "5213be6dd391a939",
+      "parentUid" : "9eed97b025bb447d2b969142437fdb39",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610984945033,
+        "stop" : 1610984968572,
+        "duration" : 23539
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'name': '测试1', 'sex': 'man', 'email': '123@qq.com', 'addressname': '外交部', 'seachaddress': '中华人民共和国外交部'}" ]
+    }, {
+      "name" : "test_add_contact[contactdata1]",
+      "uid" : "6c1471bc6dbbf22d",
+      "parentUid" : "9eed97b025bb447d2b969142437fdb39",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610984968578,
+        "stop" : 1610984988050,
+        "duration" : 19472
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'name': '测试2', 'sex': 'woman', 'email': '456@qq.com', 'addressname': '外交部', 'seachaddress': '中华人民共和国外交部'}" ]
+    } ],
+    "uid" : "9eed97b025bb447d2b969142437fdb39"
+  } ]
+}

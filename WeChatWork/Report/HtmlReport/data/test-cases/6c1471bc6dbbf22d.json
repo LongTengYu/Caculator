@@ -1,0 +1,86 @@
+{
+  "uid" : "6c1471bc6dbbf22d",
+  "name" : "test_add_contact[contactdata1]",
+  "fullName" : "TestAddContact.Test_Case#test_add_contact",
+  "historyId" : "0f5669a47fe4bf9e38ecbc2fe7a3325e",
+  "time" : {
+    "start" : 1610984968578,
+    "stop" : 1610984988050,
+    "duration" : 19472
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1610984928252,
+      "stop" : 1610984945031,
+      "duration" : 16779
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1610984988051,
+      "stop" : 1610984988805,
+      "duration" : 754
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "TestAddContact"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Case"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-VTQ1542"
+  }, {
+    "name" : "thread",
+    "value" : "10896-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestAddContact"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "contactdata",
+    "value" : "{'name': '测试2', 'sex': 'woman', 'email': '456@qq.com', 'addressname': '外交部', 'seachaddress': '中华人民共和国外交部'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6c1471bc6dbbf22d.json",
+  "parameterValues" : [ "{'name': '测试2', 'sex': 'woman', 'email': '456@qq.com', 'addressname': '外交部', 'seachaddress': '中华人民共和国外交部'}" ]
+}
